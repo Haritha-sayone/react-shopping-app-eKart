@@ -1,0 +1,51 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(28, 28, 62);
+    color: white;
+}
+
+.logo {
+    margin: 0px 10px;
+}
+
+.nav-links {
+    flex-direction: row;
+}
+
+.logo span,
+.nav-links span,
+.nav-links sup {
+    color: brown;
+}
+
+.nav-links a {
+    flex-direction: column;
+    padding: 5px 5px;
+    text-decoration: none;
+    color: white;
+}
+
+.nav-links a:hover,
+.nav-links a:active {
+    color: brown;
+    text-decoration: underline solid white 2px;
+}
+
+button {
+    background-color: white;
+    color: brown;
+    border: 2px solid brown;
+    border-radius: 20px;
+    margin: 15px 15px;
+    padding: 10px 10px;
+    font-weight: 600;
+    font-size: medium;
+}
+
+button:hover,
+button:active {
+    background-color: brown;
+    color: white;
+}
