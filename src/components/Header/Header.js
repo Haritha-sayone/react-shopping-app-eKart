@@ -9,13 +9,13 @@ const Header = () => {
         <div className={styles["nav-links"]}>
             <Link to='/'>Home</Link>
             <Link to='/products'>Shop</Link>
-            <Link to='/order-history'>My Orders</Link>
+            {/* <Link to='/order-history'>My Orders</Link> */}
             <Link to='/cart'>
                 <i className="fa fa-shopping-cart" aria-hidden="true"></i>
                 <sup>2</sup>
             </Link>
             <Link to='/admin'>Dashboard</Link>
-            <Link to='/orders'>Orders</Link>
+            {/* <Link to='/orders'>Orders</Link> */}
         </div>
         <div className={styles["nav-links"]}>
             <Link to='/login'>Login</Link>
