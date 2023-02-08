@@ -8,19 +8,21 @@ const Header = () => {
         </div>
         <div className={styles["nav-links"]}>
             <Link to='/'>Home</Link>
-            <Link to='/shop'>Shop</Link>
+            <Link to='/products'>Shop</Link>
             <Link to='/order-history'>My Orders</Link>
             <Link to='/cart'>
-                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                <i className="fa fa-shopping-cart" aria-hidden="true"></i>
                 <sup>2</sup>
             </Link>
-            <Link to='/dash'>Dashboard</Link>
+            <Link to='/admin'>Dashboard</Link>
             <Link to='/orders'>Orders</Link>
         </div>
         <div className={styles["nav-links"]}>
             <Link to='/login'>Login</Link>
-            <span><i class="fa fa-user-circle-o" aria-hidden="true"></i></span>
-            Welcome <span>user</span> !
+            <span>
+                <i className="fa fa-user-circle-o" aria-hidden="true"></i>
+            </span>
+            Welcome <span>user</span>!
             <button>Logout</button>
         </div>
     </div>
