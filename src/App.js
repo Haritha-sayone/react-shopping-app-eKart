@@ -7,7 +7,7 @@ import AddProducts from './components/admin/AddProducts';
 import ViewProducts from './components/admin/ViewProducts';
 
 import Home from './pages/Home/Home';
-import Products from './pages/products/Products';
+import Products from './pages/shop/Products';
 
 function App() {
   return (
