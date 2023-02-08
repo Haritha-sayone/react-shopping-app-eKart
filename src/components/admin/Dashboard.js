@@ -13,7 +13,7 @@ const Dashboard = () => {
                     </Link>
                 </div>
                 <div className="card text-dark bg-warning mx-2 col-6" style={{ maxWidth: "40%" }}>
-                    <Link to='/products/list' style={{ textDecoration: "none" }}>
+                    <Link to='' style={{ textDecoration: "none" }}>
                         <div className="card-body text-white">
                             MANAGE PRODUCTS
                         </div>
@@ -26,13 +26,6 @@ const Dashboard = () => {
                     <Link to='/orders' style={{ textDecoration: "none" }}>
                         <div className="card-body text-white">
                             MANAGE ORDERS
-                        </div>
-                    </Link>
-                </div>
-                <div className="card text-dark bg-danger mx-2 col-6" style={{ maxWidth: "40%" }}>
-                    <Link to='/users' style={{ textDecoration: "none" }}>
-                        <div className="card-body text-white">
-                            MANAGE USERS
                         </div>
                     </Link>
                 </div>
