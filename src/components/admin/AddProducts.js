@@ -30,19 +30,21 @@ const AddProduct = () => {
                         />
                     </div>
                     <div className="mb-3">
-                        {/* <label htmlFor="category" className="form-label">Category</label>
-                        <input
+                        <label htmlFor="category" className="form-label">Category</label>
+                        {/* <input
                             type="text"
                             className="form-control"
                             placeholder='Category'
                             required
                             value=""
                         /> */}
-                        <select class="form-select" aria-label="Default select example">
+                        <select className="form-select" aria-label="Default select example">
                             <option selected>Choose Category</option>
-                            <option value="1">Electronics</option>
-                            <option value="2">Two</option>
-                            <option value="3">Three</option>
+                            <option value="laptops">Laptops</option>
+                            <option value="mobiles">Mobiles</option>
+                            <option value="men">Mens wear</option>
+                            <option value="women">Womens wear</option>
+                            <option value="shoes">Shoes</option>
                         </select>
                     </div>
                     <div className="mb-3">
