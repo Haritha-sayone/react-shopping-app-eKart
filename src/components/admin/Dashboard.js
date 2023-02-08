@@ -12,23 +12,7 @@ const Dashboard = () => {
                         </div>
                     </Link>
                 </div>
-                <div className="card text-dark bg-warning mx-2 col-6" style={{ maxWidth: "40%" }}>
-                    <Link to='' style={{ textDecoration: "none" }}>
-                        <div className="card-body text-white">
-                            MANAGE PRODUCTS
-                        </div>
-                    </Link>
-                </div>
-            </div>
-
-            <div className='row text-center mt-5'>
-                <div className="card text-dark bg-primary mx-2 col-6" style={{ maxWidth: "40%" }}>
-                    <Link to='/orders' style={{ textDecoration: "none" }}>
-                        <div className="card-body text-white">
-                            MANAGE ORDERS
-                        </div>
-                    </Link>
-                </div>
+                
             </div>
 
         </div>
